@@ -1,0 +1,172 @@
+/* Resets básicos para limpar os padrões do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa; /* bg-light do bootstrap */
+    color: #212529; /* text-dark do bootstrap */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Navbar imitando o estilo Dark do Bootstrap */
+.navbar {
+    background-color: #212529;
+    padding: 1rem 0;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    width: 100%;
+}
+
+/* Garante o alinhamento do conteúdo totalmente à esquerda dentro do limite do container */
+.container-navbar {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+.navbar-brand {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-right: auto; /* Força o elemento para o canto esquerdo */
+}
+
+.text-success {
+    color: #198754; /* Verde padrão do Bootstrap / IF */
+}
+
+/* Layout Geral */
+.main-content {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilização do Card (Visual clean do Bootstrap) */
+.card {
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    width: 100%;
+    max-width: 750px;
+}
+
+.card-body {
+    padding: 3rem;
+}
+
+.text-center {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.page-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #212529;
+    margin-bottom: 0.75rem;
+}
+
+.heading-line {
+    width: 60px;
+    height: 4px;
+    background-color: #198754;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+/* Seções de Texto */
+.section-content {
+    margin-bottom: 2rem;
+}
+
+.section-title {
+    font-size: 1.25rem;
+    color: #6c757d;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #495057;
+}
+
+.divider {
+    border: 0;
+    border-top: 1px solid #dee2e6;
+    margin: 2rem 0;
+    opacity: 0.5;
+}
+
+/* Grid de Informações com Flexbox */
+.info-grid {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.info-box {
+    flex: 1;
+    min-width: 250px;
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.info-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: #198754;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.5rem;
+}
+
+.info-value {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #212529;
+    margin-bottom: 0.25rem;
+}
+
+.info-sub {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+/* Rodapés */
+.card-footer {
+    background-color: #212529;
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.875rem;
+}
+
+.footer {
+    background-color: #212529;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding: 1rem 0;
+    border-top: 1px solid #495057;
+    font-size: 0.875rem;
+}
