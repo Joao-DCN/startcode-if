@@ -1,4 +1,3 @@
-/* Resets básicos para limpar os padrões do navegador */
 * {
     margin: 0;
     padding: 0;
@@ -7,8 +6,8 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f8f9fa; /* bg-light do bootstrap */
-    color: #212529; /* text-dark do bootstrap */
+    background-color: #f8f9fa; 
+    color: #212529; 
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -21,19 +20,10 @@ body {
     padding: 0 15px;
 }
 
-/* Navbar imitando o estilo Dark do Bootstrap */
 .navbar {
     background-color: #212529;
     padding: 1rem 0;
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-    width: 100%;
-}
-
-/* Garante o alinhamento do conteúdo totalmente à esquerda dentro do limite do container */
-.container-navbar {
-    display: flex;
-    justify-content: flex-start; 
-    align-items: center;
 }
 
 .navbar-brand {
@@ -41,14 +31,12 @@ body {
     text-decoration: none;
     font-size: 1.25rem;
     font-weight: 700;
-    margin-right: auto; /* Força o elemento para o canto esquerdo */
 }
 
 .text-success {
-    color: #198754; /* Verde padrão do Bootstrap / IF */
+    color: #198754;
 }
 
-/* Layout Geral */
 .main-content {
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -58,7 +46,6 @@ body {
     align-items: center;
 }
 
-/* Estilização do Card (Visual clean do Bootstrap) */
 .card {
     background-color: #fff;
     border-radius: 1rem;
@@ -92,7 +79,6 @@ body {
     border-radius: 2px;
 }
 
-/* Seções de Texto */
 .section-content {
     margin-bottom: 2rem;
 }
@@ -117,7 +103,6 @@ body {
     opacity: 0.5;
 }
 
-/* Grid de Informações com Flexbox */
 .info-grid {
     display: flex;
     gap: 1.5rem;
@@ -153,7 +138,6 @@ body {
     color: #6c757d;
 }
 
-/* Rodapés */
 .card-footer {
     background-color: #212529;
     color: rgba(255, 255, 255, 0.75);
