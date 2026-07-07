@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - startcode-if</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container container-navbar">
+            <a href="#" class="navbar-brand">
+                <span class="text-success">&lt;</span>startcode-if<span class="text-success">/&gt;</span>
+            </a>
+        </div>
+    </nav>
+
+    <main class="container main-content">
+
+        <div class="card register-card">
+
+            <div class="card-body">
+
+                <div class="text-center">
+                    <h1 class="page-title">Criar Conta</h1>
+                    <div class="heading-line"></div>
+
+                    <p class="login-description">
+                        Preencha os dados abaixo para fazer parte da comunidade
+                        <strong>startcode-if</strong>.
+                    </p>
+                </div>
+
+                <form action="index.html" method="get">
+
+                    <div class="form-group">
+                        <label class="form-label" for="nome">
+                            Nome Completo
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nome"
+                            class="form-control"
+                            placeholder="Digite seu nome completo"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" for="email">
+                            E-mail
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            class="form-control"
+                            placeholder="Digite seu e-mail"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" for="campus">
+                            Campus
+                        </label>
+
+                        <select
+                            id="campus"
+                            class="form-control"
+                            required>
+
+                            <option value="" selected disabled>
+                                Selecione seu campus
+                            </option>
+
+                            <option>IFPI - São Raimundo Nonato</option>
+                            <option>IFPI - Teresina Central</option>
+                            <option>IFPI - Picos</option>
+                            <option>IFPI - Floriano</option>
+                            <option>Outro Campus</option>
+
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" for="senha">
+                            Senha
+                        </label>
+
+                        <input
+                            type="password"
+                            id="senha"
+                            class="form-control"
+                            placeholder="Crie uma senha"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" for="confirmar">
+                            Confirmar Senha
+                        </label>
+
+                        <input
+                            type="password"
+                            id="confirmar"
+                            class="form-control"
+                            placeholder="Confirme sua senha"
+                            required>
+                    </div>
+
+                    <button type="submit" class="btn btn-success">
+                        Criar Conta
+                    </button>
+
+                </form>
+
+                <div class="login-footer">
+                    <p>
+                        Já possui uma conta?
+                        <a href="login.html">Entrar</a>
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="card-footer">
+                <small>Junte-se à comunidade startcode-if.</small>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <small>&copy; 2026 startcode-if. Todos os direitos reservados.</small>
+        </div>
+    </footer>
+
+</body>
+</html>
